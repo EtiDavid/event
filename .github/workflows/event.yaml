@@ -1,4 +1,4 @@
-name: code and code deployment
+name: event fliter demo
 on:
   pull_request:
     types:
@@ -7,8 +7,7 @@ on:
     branches-ignore:
       - dev
     paths:
-      - app.jsx
-
+      - App.jsx
 jobs:
   code_deployment:
     runs-on: ubuntu-latest
