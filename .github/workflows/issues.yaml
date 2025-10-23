@@ -1,5 +1,5 @@
 name: check issues
-on: issues
+on: ...
 jobs:
   checking_issues:
     runs-on: ubuntu-latest
