@@ -1,5 +1,5 @@
 name: code and code deployment
-on: ....
+on: workflow_dispatch
 jobs:
   code_deployment:
     runs-on: ubuntu-latest

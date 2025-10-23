@@ -1,5 +1,8 @@
 name: code and code deployment
-on: ....
+on:
+  pull_request:
+    types:
+      - opened
 jobs:
   code_deployment:
     runs-on: ubuntu-latest
