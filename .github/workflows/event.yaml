@@ -3,6 +3,12 @@ on:
   pull_request:
     types:
       - opened
+  push:
+    branches-ignore:
+      - dev
+    paths:
+      - app.jsx
+
 jobs:
   code_deployment:
     runs-on: ubuntu-latest
