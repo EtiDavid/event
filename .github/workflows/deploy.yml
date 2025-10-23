@@ -1,6 +1,6 @@
 name: code and code deployment
 on: push
-job:
+jobs:
   code_deployment:
     runs-on: ubuntu latest
     steps:
