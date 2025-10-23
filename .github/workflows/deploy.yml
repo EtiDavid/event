@@ -13,7 +13,6 @@ jobs:
       - name: Test code
         run: npm test
   deploy:
-    uses: code_deployment
     runs-on: ubuntu latest
     steps:
       - name: get code
